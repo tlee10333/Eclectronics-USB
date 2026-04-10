@@ -14574,6 +14574,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 204.47 64.77)
+		(size 41.91 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11fd65ed-2b4f-4986-a99d-c4d00aaf7394")
+		(property "Sheetname" "nRF7002"
+			(at 204.47 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nRF7002.kicad_sch"
+			(at 204.47 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2350Adev"
+				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
