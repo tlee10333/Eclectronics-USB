@@ -1,3 +1,11 @@
 /RP2350Adev-backups
 .kicad_prl
 .lck
+*.kicad_pro.user
+
+# Autosave / backup files
+*-backup.*
+*.bak
+*.bck
+*.tmp
+*.autosave
