@@ -3,4 +3,5 @@
   (lib (name "Eclectronics")(type "KiCad")(uri "${KIPRJMOD}/../Eclectronics/Eclectronics.kicad_sym")(options "")(descr ""))
   (lib (name "2026-04-09_15-29-49")(type "KiCad")(uri "${KIPRJMOD}/NRF7002_QFAA_R/KiCADv6/2026-04-09_15-29-49.kicad_sym")(options "")(descr ""))
   (lib (name "2026-04-09_15-44-37")(type "KiCad")(uri "${KIPRJMOD}/OSC/KiCADv6/2026-04-09_15-44-37.kicad_sym")(options "")(descr ""))
+  (lib (name "LFD182G45DCJD247")(type "KiCad")(uri "${KIPRJMOD}/LFD182G45DCJD247/LFD182G45DCJD247.kicad_sym")(options "")(descr ""))
 )
