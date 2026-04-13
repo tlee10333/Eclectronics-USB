@@ -1,4 +1,4 @@
-# Eclectronics SPring 2026 Final Project - Wireless USB Communication Board 
+# Eclectronics Spring 2026 Final Project - Wireless USB Communication Board 
 ## By: Allan Huang, Trinity Lee, Venkadesh Eswaranandam
 
 This repository contains documentation for a wireless USB communication board. 
