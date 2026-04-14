@@ -14616,6 +14616,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 186.69 53.34)
+		(size 21.59 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e88459c-f2b4-45ae-9fe1-02e56b237c5e")
+		(property "Sheetname" "nRF5340"
+			(at 186.69 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nRF5340.kicad_sch"
+			(at 186.69 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2350Adev"
+				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
