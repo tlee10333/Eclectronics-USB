@@ -492,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RP2350Adev.kicad_pro",
+    "filename": "main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -684,8 +684,20 @@
   },
   "sheets": [
     [
-      "4930e8a3-0a58-4861-9c4c-0d8b2139987a",
+      "1f57b86c-11e7-4ea8-8f36-592c0861a25b",
       "Root"
+    ],
+    [
+      "52f2bb31-32ae-4b06-aca7-93e1eef009d8",
+      "nRF5340"
+    ],
+    [
+      "136a9d44-a364-48e6-8424-e71f46d06146",
+      "nRF7002"
+    ],
+    [
+      "e16fb6e9-2746-4857-8b68-d42730275cb2",
+      "RP2350Adev"
     ],
     [
       "11fd65ed-2b4f-4986-a99d-c4d00aaf7394",
@@ -694,6 +706,10 @@
     [
       "2e88459c-f2b4-45ae-9fe1-02e56b237c5e",
       "nRF5340"
+    ],
+    [
+      "035fadad-9eba-4726-a427-88058f0933c7",
+      "USB_Mux_Periph"
     ]
   ],
   "text_variables": {}

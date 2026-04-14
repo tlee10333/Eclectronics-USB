@@ -1114,6 +1114,12 @@
 		)
 		(instances
 			(project "RP2350Adev"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "RP2350Adev"
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "#PWR07")
 					(unit 1)
@@ -1191,6 +1197,12 @@
 		)
 		(instances
 			(project ""
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "J6")
 					(unit 1)
@@ -1267,6 +1279,12 @@
 			(uuid "84318ef4-bbe4-449f-a8b5-fb86a675157d")
 		)
 		(instances
+			(project ""
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "J5")
@@ -1362,6 +1380,12 @@
 		)
 		(instances
 			(project "RP2350Adev"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "RP2350Adev"
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "U5")
 					(unit 1)
@@ -1427,6 +1451,12 @@
 			(uuid "bac51e48-95ca-4a55-a2a8-49f22f434edc")
 		)
 		(instances
+			(project "RP2350Adev"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "RP2350Adev"
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "#PWR06")
@@ -1494,6 +1524,12 @@
 		)
 		(instances
 			(project "RP2350Adev"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "RP2350Adev"
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "#PWR01")
 					(unit 1)
@@ -1558,6 +1594,12 @@
 			(uuid "8f53f2ea-817f-4628-9118-cc7f789e4034")
 		)
 		(instances
+			(project "RP2350Adev"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 			(project "RP2350Adev"
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "#PWR062")
@@ -1625,6 +1667,12 @@
 		)
 		(instances
 			(project "RP2350Adev"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+			(project "RP2350Adev"
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "#PWR061")
 					(unit 1)
@@ -1689,6 +1737,12 @@
 			(uuid "1e3aec7a-41b2-4e20-ba28-53420b43190e")
 		)
 		(instances
+			(project "RP2350Adev"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b/035fadad-9eba-4726-a427-88058f0933c7"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
 			(project "RP2350Adev"
 				(path "/4930e8a3-0a58-4861-9c4c-0d8b2139987a/db70cf87-0632-43b2-ac94-675a68e5aa11"
 					(reference "#PWR063")

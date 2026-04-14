@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1f57b86c-11e7-4ea8-8f36-592c0861a25b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 64.77 78.74)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "035fadad-9eba-4726-a427-88058f0933c7")
+		(property "Sheetname" "USB_Mux_Periph"
+			(at 64.77 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Mux_Periph.kicad_sch"
+			(at 64.77 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 36.83)
+		(size 41.91 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "136a9d44-a364-48e6-8424-e71f46d06146")
+		(property "Sheetname" "nRF7002"
+			(at 109.22 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nRF7002.kicad_sch"
+			(at 109.22 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 36.83)
+		(size 43.18 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52f2bb31-32ae-4b06-aca7-93e1eef009d8")
+		(property "Sheetname" "nRF5340"
+			(at 46.99 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nRF5340.kicad_sch"
+			(at 46.99 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 35.56)
+		(size 41.91 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e16fb6e9-2746-4857-8b68-d42730275cb2")
+		(property "Sheetname" "RP2350Adev"
+			(at 160.02 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2350Adev.kicad_sch"
+			(at 160.02 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/1f57b86c-11e7-4ea8-8f36-592c0861a25b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
