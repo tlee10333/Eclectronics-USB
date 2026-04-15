@@ -41317,7 +41317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Eclectronics:USB4105-GF-A"
 			(at -2.54 3.81 0)
 			(effects
 				(font
