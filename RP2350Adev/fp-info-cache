@@ -1,4 +1,4 @@
-27323545792596332
+27337755841287287
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62034,6 +62034,13 @@ EXBD
 10
 9
 Eclectronics
+FIL_LFD182G45DCJD247
+
+
+0
+6
+6
+Eclectronics
 ICD3_header
 
 
@@ -62047,6 +62054,13 @@ IN-S85TATRGB
 0
 4
 4
+Eclectronics
+INDC1608X95N
+
+
+0
+2
+2
 Eclectronics
 IQXO-791
 
@@ -62321,6 +62335,27 @@ QFN40P300X300X105-25N
 25
 25
 Eclectronics
+RMG12_TEX
+
+TS3USB3031RMGR 
+0
+12
+12
+Eclectronics
+RMG12_TEX-L
+
+TS3USB3031RMGR 
+0
+12
+12
+Eclectronics
+RMG12_TEX-M
+
+TS3USB3031RMGR 
+0
+12
+12
+Eclectronics
 RN4871
 
 
@@ -62517,12 +62552,33 @@ X1-DFN1006-2
 2
 2
 Eclectronics
+XCVR_NN03-320
+
+
+0
+4
+4
+Eclectronics
 XTAL_ABM10-27.000MHZ-E20-T
 
 
 0
 4
 4
+Eclectronics
+XTAL_ABM11W-32.0000MHZ-8-D1X-T3
+
+
+0
+4
+4
+Eclectronics
+XTAL_CM9V-T1A-32.768KHZ-9PF-20PPM-TA-QC
+
+
+0
+2
+2
 Eclectronics
 ellipse_gesture
 Imported from ellipse_gesture.svg

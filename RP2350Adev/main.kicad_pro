@@ -700,14 +700,6 @@
       "RP2350Adev"
     ],
     [
-      "11fd65ed-2b4f-4986-a99d-c4d00aaf7394",
-      "nRF7002"
-    ],
-    [
-      "2e88459c-f2b4-45ae-9fe1-02e56b237c5e",
-      "nRF5340"
-    ],
-    [
       "035fadad-9eba-4726-a427-88058f0933c7",
       "USB_Mux_Periph"
     ]

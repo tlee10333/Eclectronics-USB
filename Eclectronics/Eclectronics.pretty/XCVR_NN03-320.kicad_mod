@@ -1,0 +1,317 @@
+(footprint "XCVR_NN03-320"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.96 -2.508 0)
+		(layer "F.SilkS")
+		(uuid "96762b91-05a5-41ab-9677-af007bafa2bd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XCVR_NN03-320"
+		(at 3.104 2.508 0)
+		(layer "F.Fab")
+		(uuid "e4b29870-4a82-4586-995e-4bca80f14c6e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae700fdd-cf1b-4710-9419-61b1f8fb132c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b8888e-ca6f-4fc7-a4d7-8ac158a7f9da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -1.5)
+		(end 1.15 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b128615-3209-42ac-8888-b0472010befc")
+	)
+	(fp_line
+		(start -3.5 -0.85)
+		(end -3.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e96170e9-5022-438b-b47c-c4afe95bfa3d")
+	)
+	(fp_line
+		(start -3.5 1.5)
+		(end -3.5 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "946b5694-2bbb-4701-a44f-d87b7835185a")
+	)
+	(fp_line
+		(start 1.15 1.5)
+		(end -3.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3be9e5e3-3410-4215-a77b-c34f2ead8292")
+	)
+	(fp_line
+		(start 2.35 -1.5)
+		(end 3.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5d7dc10-78ef-4d65-a3f9-a25c188bc700")
+	)
+	(fp_line
+		(start 3.5 -1.5)
+		(end 3.5 -0.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b48d5a5-f03a-43ff-b0b1-134e7c02b1e2")
+	)
+	(fp_circle
+		(center 3.01 2)
+		(end 3.11 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3f7f50d1-17dc-42b3-9da5-be4eaf2178a3")
+	)
+	(fp_line
+		(start -3.75 -1.75)
+		(end 3.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e69422b8-45de-4e76-9522-f3105a890fd4")
+	)
+	(fp_line
+		(start -3.75 1.75)
+		(end -3.75 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a0712d2-aa03-497c-a396-7bc886a9d8fd")
+	)
+	(fp_line
+		(start 3.75 -1.75)
+		(end 3.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "135af2ed-abeb-417a-9ced-18951cab9c3e")
+	)
+	(fp_line
+		(start 3.75 1.75)
+		(end -3.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d6383c1-2b67-4bd5-b419-3097b8a6cefa")
+	)
+	(fp_line
+		(start -3.5 -1.5)
+		(end -3.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "467fab51-bd8d-4c99-bfdb-c4a2d2873581")
+	)
+	(fp_line
+		(start -3.5 1.5)
+		(end 3.5 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ace99911-8857-4ce3-8890-61eba769ec2a")
+	)
+	(fp_line
+		(start 3.5 -1.5)
+		(end -3.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06e4b2cf-2c52-42a8-8de7-a72824e25fc6")
+	)
+	(fp_line
+		(start 3.5 1.5)
+		(end 3.5 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c139670-2582-4247-a229-13cfac3dd5d6")
+	)
+	(fp_circle
+		(center 3.01 2)
+		(end 3.11 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "61f60029-3a68-434f-9fcc-d791a12d55f3")
+	)
+	(pad "1" smd rect
+		(at -3 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "61734a2a-645a-45c3-bf7f-c6268ab2df18")
+	)
+	(pad "1" smd rect
+		(at 1.75 -0.875)
+		(size 0.5 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "7afa5176-11b1-452d-86a1-6a2f619c9eb0")
+	)
+	(pad "1" smd rect
+		(at 1.75 0.875)
+		(size 0.5 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cfa7e378-4cb1-4436-9dfc-b2d519ff7fcb")
+	)
+	(pad "1" smd rect
+		(at 3 0.875)
+		(size 1 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "850dda1a-ea1f-4670-8469-30bdadef8283")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "bfd3ef2b-a6a9-49c0-a5e5-329712ac4838")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -3.5 -0.5) (xy -3.5 -1.5) (xy 1.5 -1.5) (xy 1.5 -0.25) (xy 2 -0.25) (xy 2 -1.5) (xy 3.5 -1.5)
+				(xy 3.5 0.25) (xy 2.5 0.25) (xy 2.5 1.5) (xy 2 1.5) (xy 2 0.25) (xy 1.5 0.25) (xy 1.5 1.5) (xy -3.5 1.5)
+				(xy -3.5 0.5) (xy -2.5 0.5) (xy -2.5 -0.5)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "0253a545-34ea-4bec-bf95-495bc9ff3a81")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -3.5 -0.5) (xy -3.5 -1.5) (xy 1.5 -1.5) (xy 1.5 -0.25) (xy 2 -0.25) (xy 2 -1.5) (xy 3.5 -1.5)
+				(xy 3.5 0.25) (xy 2.5 0.25) (xy 2.5 1.5) (xy 2 1.5) (xy 2 0.25) (xy 1.5 0.25) (xy 1.5 1.5) (xy -3.5 1.5)
+				(xy -3.5 0.5) (xy -2.5 0.5) (xy -2.5 -0.5)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
