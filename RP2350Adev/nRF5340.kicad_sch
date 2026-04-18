@@ -5754,7 +5754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
+		(property "Footprint" "Eclectronics:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
 			(at 142.24 35.56 0)
 			(effects
 				(font

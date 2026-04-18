@@ -1,4 +1,4 @@
-27337755841418202
+27341308322454610
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62146,6 +62146,13 @@ MSP3V3_5.0A
 2
 2
 Eclectronics
+Nordic_AQFN-94-1EP_7x7mm_P0.4mm
+aQFN, Nordic, nRF5340, https://infocenter.nordicsemi.com/pdf/nRF5340_PS_v1.2.pdf
+aqfn qfn nordic nrf nrf5340 aqfn94
+0
+99
+95
+Eclectronics
 OlinLogo
 Imported from OlinLogo.svg
 svg2mod
@@ -62334,6 +62341,13 @@ QFN40P300X300X105-25N
 0
 25
 25
+Eclectronics
+QFN48_6X6_NOR
+
+NRF7002-QFAA-R 
+0
+49
+49
 Eclectronics
 RMG12_TEX
 
@@ -62557,7 +62571,7 @@ XCVR_NN03-320
 
 0
 4
-1
+2
 Eclectronics
 XTAL_ABM10-27.000MHZ-E20-T
 
