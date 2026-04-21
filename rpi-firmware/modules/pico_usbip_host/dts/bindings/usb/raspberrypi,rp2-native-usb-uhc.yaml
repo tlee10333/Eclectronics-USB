@@ -1,0 +1,7 @@
+description: RP2 native USB host controller (TinyUSB/Pico SDK bridge)
+
+compatible: "raspberrypi,rp2-usb-uhc"
+
+include: base.yaml
+
+properties: {}

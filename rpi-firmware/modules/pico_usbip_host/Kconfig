@@ -1,0 +1,43 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config ZEPHYR_PICO_USBIP_HOST_MODULE
+	bool
+	default y
+
+menuconfig UHC_RP2350_PIO_USB
+	bool "RP2350 PIO USB host controller (Pico-PIO-USB)"
+	default y
+	depends on DT_HAS_RASPBERRYPI_RP2350_PIO_USB_UHC_ENABLED
+	select PICOSDK_USE_PIO
+	select PICOSDK_USE_DMA
+	select PICOSDK_USE_GPIO
+	select PICOSDK_USE_TIMER
+	help
+	  USB host using PIO (Pico-PIO-USB) for Raspberry Pi RP2040/RP2350.
+
+if UHC_RP2350_PIO_USB
+
+module = UHC_RP2350_PIO_USB
+module-str = uhc_rp2350_pio_usb
+source "subsys/logging/Kconfig.template.log_config"
+
+endif # UHC_RP2350_PIO_USB
+
+menuconfig UHC_RP2_NATIVE_USB
+	bool "RP2 native USB host controller (TinyUSB/Pico SDK)"
+	default n
+	depends on DT_HAS_RASPBERRYPI_RP2_USB_UHC_ENABLED
+	select PICOSDK_USE_GPIO
+	select PICOSDK_USE_TIMER
+	help
+	  Experimental USB host controller using RP2040/RP2350 native USB
+	  hardware via TinyUSB APIs from Pico SDK.
+	  Keep UHC_RP2350_PIO_USB disabled when using this backend.
+
+if UHC_RP2_NATIVE_USB
+
+module = UHC_RP2_NATIVE_USB
+module-str = uhc_rp2_native_usb
+source "subsys/logging/Kconfig.template.log_config"
+
+endif # UHC_RP2_NATIVE_USB

@@ -1,0 +1,17 @@
+mainmenu "Pico USB/IP host"
+
+config PICO_USBIP_AP_SSID
+	string "SoftAP SSID"
+	default "USB link"
+
+config PICO_USBIP_AP_PSK
+	string "SoftAP WPA2 passphrase (empty for open)"
+	default "usbip12345"
+
+config PICO_WIFI_PROBE_ONLY
+	bool "Wi-Fi probe mode (LED indicates AP bring-up)"
+	default n
+	help
+	  Minimal runtime for hardware bring-up.
+
+source "Kconfig.zephyr"

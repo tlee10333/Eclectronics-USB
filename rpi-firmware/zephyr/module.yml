@@ -1,0 +1,5 @@
+name: pico_usbip_host_app
+
+build:
+  cmake-ext: True
+  kconfig-ext: True

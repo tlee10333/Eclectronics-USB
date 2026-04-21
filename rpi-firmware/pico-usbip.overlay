@@ -1,0 +1,92 @@
+/*
+ * Copyright (c) 2026
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Direct-wire overlay for Pico 2 + nRF7002 + USB-IP host on rpi_pico2/rp2350a/m33.
+ *
+ * Wiring (Pico GP -> nRF7002-EK):
+ *   GP2   -> CLK
+ *   GP3   -> MOSI
+ *   GP4   -> MISO
+ *   GP5   -> SS/CSn (GPIO-managed CS)
+ *   GP8   -> HOST_IRQ
+ *   GP14  -> BUCK_EN
+ *   GP15  -> IOVDD_EN
+ *   GP16  -> UART0 TX
+ *   GP17  -> UART0 RX
+ *
+ * COEX, SW_CTRL0 are intentionally left disconnected.
+ */
+
+#include <zephyr/dt-bindings/pinctrl/rpi-pico-rp2350a-pinctrl.h>
+#include <zephyr/dt-bindings/gpio/gpio.h>
+
+/ {
+	zephyr,user {
+		/* Host port VBUS enable*/
+		vbus-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
+	};
+
+	/*
+	 * RP2 native USB host controller used by USB/IP.
+	 */
+	zephyr_uhc0: pio_usb_uhc {
+		compatible = "raspberrypi,rp2-usb-uhc";
+		status = "okay";
+	};
+
+	/* Keep disabled to avoid duplicate native UHC nodes. */
+	rp2_usb_uhc {
+		compatible = "raspberrypi,rp2-usb-uhc";
+		status = "disabled";
+	};
+};
+
+&spi0 {
+	/* Use GPIO-managed CS on GP5 for stable multi-byte transactions. */
+	cs-gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
+};
+
+&pinctrl {
+	uart0_gp16_gp17: uart0_gp16_gp17 {
+		group1 {
+			pinmux = <UART0_TX_P16>;
+		};
+		group2 {
+			pinmux = <UART0_RX_P17>;
+			input-enable;
+		};
+	};
+
+	/* Keep hardware SSPFSS off; CS is driven by cs-gpios. */
+	spi0_default: spi0_default {
+		group1 {
+			pinmux = <SPI0_SCK_P2>, <SPI0_TX_P3>;
+		};
+		group2 {
+			pinmux = <SPI0_RX_P4>;
+			input-enable;
+		};
+	};
+};
+
+&uart0 {
+	pinctrl-0 = <&uart0_gp16_gp17>;
+	pinctrl-names = "default";
+	current-speed = <115200>;
+	status = "okay";
+};
+
+&nrf70 {
+	/* Override shield defaults with direct control pins. */
+	iovdd-ctrl-gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+	bucken-gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
+	host-irq-gpios = <&gpio0 8 GPIO_ACTIVE_HIGH>;
+
+	spi-max-frequency = <25000000>;
+
+	/* Required when CONFIG_NRF70_ENABLE_DUAL_VIF=y (STA+AP mode). */
+	wlan1: wlan1 {
+		compatible = "nordic,wlan";
+	};
+};

@@ -1,0 +1,43 @@
+# SPDX-License-Identifier: Apache-2.0
+
+description: |
+  Raspberry Pi RP2350/RP2040 USB host controller implemented with PIO (Pico-PIO-USB).
+
+compatible: "raspberrypi,rp2350-pio-usb-uhc"
+
+properties:
+  dp-gpios:
+    type: phandle-array
+    required: true
+    description: D+ GPIO (D- must be the adjacent pin per Pico-PIO-USB pinout).
+
+  pio-tx-instance:
+    type: int
+    default: 0
+    description: PIO block index for USB transmit.
+
+  pio-rx-instance:
+    type: int
+    default: 0
+    description: PIO block index for USB receive.
+
+  dma-tx-channel:
+    type: int
+    default: 0
+    description: DMA channel for USB transmit.
+
+  sm-tx:
+    type: int
+    default: 0
+
+  sm-rx:
+    type: int
+    default: 1
+
+  sm-eop:
+    type: int
+    default: 2
+
+  pinout-dpdm:
+    type: boolean
+    description: If true, DM = DP+1 (PIO_USB_PINOUT_DPDM).
