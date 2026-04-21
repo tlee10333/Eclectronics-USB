@@ -1,4 +1,4 @@
-27341309422596453
+27343091286502922
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61985,6 +61985,13 @@ CL-340
 12
 6
 Eclectronics
+CONN_480370001_MOL
+
+480370001 
+0
+4
+4
+Eclectronics
 CSTNE
 
 
@@ -62522,7 +62529,7 @@ USB_A_0480370001
 
 0
 6
-6
+5
 Eclectronics
 USB_microB_2040002-1
 Micro USB Type B 10103594-0001LF
