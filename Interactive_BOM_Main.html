@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
+<!-- saved from url=(0152)file:///C:/Users/ahuang2/OneDrive%20-%20Olin%20College%20of%20Engineering/Documents/Eclectronics_Final_Project/Eclectronics-USB/RP2350Adev/bom/ibom.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive BOM for KiCAD</title>
+  <title>main BOM</title>
   <style type="text/css">
 :root {
   --pcb-edge-color: black;
@@ -896,7 +895,7 @@ a {
 }
 
   </style>
-  <script type="text/javascript" >
+  <script type="text/javascript">
 ///////////////////////////////////////////////
 /*
   Split.js - v1.3.5
@@ -4425,31 +4424,28 @@ window.matchMedia("print").addListener(resizeAll);
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
-  </script>
-</head>
+  </script><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }
+[touch-action="auto"]{ -ms-touch-action: auto; touch-action: auto; }
+[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }
+[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }
+[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }
+</style>
+<style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#top-ad,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap__module,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style></head>
 
 <body>
 
-<div id="topmostdiv" class="topmostdiv">
+<div id="topmostdiv" class="topmostdiv" style="height: 100%; display: flex;">
   <div id="top">
     <div id="fileinfodiv">
       <table class="fileinfo">
         <tbody>
           <tr>
-            <td id="title" class="title" style="width: 70%">
-              Title
-            </td>
-            <td id="revision" class="title" style="width: 30%">
-              Revision
-            </td>
+            <td id="title" class="title" style="width: 70%">main</td>
+            <td id="revision" class="title" style="width: 30%">Rev: </td>
           </tr>
           <tr>
-            <td id="company">
-              Company
-            </td>
-            <td id="filedate">
-              Date
-            </td>
+            <td id="company"></td>
+            <td id="filedate">2026-04-21 15:46:45</td>
           </tr>
         </tbody>
       </table>
@@ -4467,45 +4463,45 @@ window.matchMedia("print").addListener(resizeAll);
             Full Screen
           </label>
           <label class="menu-label" style="width: calc(50% - 18px)">
-            <input id="fabricationCheckbox" type="checkbox" checked onchange="fabricationVisible(this.checked)">
+            <input id="fabricationCheckbox" type="checkbox" checked="" onchange="fabricationVisible(this.checked)">
             Fab layer
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
-            <input id="silkscreenCheckbox" type="checkbox" checked onchange="silkscreenVisible(this.checked)">
+            <input id="silkscreenCheckbox" type="checkbox" checked="" onchange="silkscreenVisible(this.checked)">
             Silkscreen
           </label>
           <label class="menu-label" style="width: calc(50% - 18px)">
-            <input id="referencesCheckbox" type="checkbox" checked onchange="referencesVisible(this.checked)">
+            <input id="referencesCheckbox" type="checkbox" checked="" onchange="referencesVisible(this.checked)">
             References
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
-            <input id="valuesCheckbox" type="checkbox" checked onchange="valuesVisible(this.checked)">
+            <input id="valuesCheckbox" type="checkbox" checked="" onchange="valuesVisible(this.checked)">
             Values
           </label>
-          <div id="tracksAndZonesCheckboxes">
+          <div id="tracksAndZonesCheckboxes" style="display: none;">
             <label class="menu-label" style="width: calc(50% - 18px)">
-              <input id="tracksCheckbox" type="checkbox" checked onchange="tracksVisible(this.checked)">
+              <input id="tracksCheckbox" type="checkbox" checked="" onchange="tracksVisible(this.checked)">
               Tracks
             </label><!-- This comment eats space! All of it!
             --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
-              <input id="zonesCheckbox" type="checkbox" checked onchange="zonesVisible(this.checked)">
+              <input id="zonesCheckbox" type="checkbox" checked="" onchange="zonesVisible(this.checked)">
               Zones
             </label>
           </div>
           <label class="menu-label" style="width: calc(50% - 18px)">
-            <input id="padsCheckbox" type="checkbox" checked onchange="padsVisible(this.checked)">
+            <input id="padsCheckbox" type="checkbox" checked="" onchange="padsVisible(this.checked)">
             Pads
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
-            <input id="dnpOutlineCheckbox" type="checkbox" checked onchange="dnpOutline(this.checked)">
+            <input id="dnpOutlineCheckbox" type="checkbox" checked="" onchange="dnpOutline(this.checked)">
             DNP outlined
           </label>
           <label class="menu-label">
-            <input id="highlightRowOnClickCheckbox" type="checkbox" checked onchange="setHighlightRowOnClick(this.checked)">
+            <input id="highlightRowOnClickCheckbox" type="checkbox" checked="" onchange="setHighlightRowOnClick(this.checked)">
             Highlight row on click
           </label>
           <label class="menu-label">
-            <input id="dragCheckbox" type="checkbox" checked onchange="setRedrawOnDrag(this.checked)">
+            <input id="dragCheckbox" type="checkbox" checked="" onchange="setRedrawOnDrag(this.checked)">
             Continuous redraw on drag
           </label>
           <label class="menu-label">
@@ -4513,15 +4509,15 @@ window.matchMedia("print").addListener(resizeAll);
             <form id="highlightpin1">
               <div class="flexbox">
                 <label>
-                  <input type="radio" name="highlightpin1" value="none" onchange="setHighlightPin1('none')">
+                  <input type="radio" name="highlightpin1" value="none" onchange="setHighlightPin1(&#39;none&#39;)">
                   None
                 </label>
                 <label>
-                  <input type="radio" name="highlightpin1" value="all" onchange="setHighlightPin1('all')">
+                  <input type="radio" name="highlightpin1" value="all" onchange="setHighlightPin1(&#39;all&#39;)">
                   All
                 </label>
                 <label>
-                  <input type="radio" name="highlightpin1" value="selected" onchange="setHighlightPin1('selected')">
+                  <input type="radio" name="highlightpin1" value="selected" onchange="setHighlightPin1(&#39;selected&#39;)">
                   Selected
                 </label>
               </div>
@@ -4529,7 +4525,7 @@ window.matchMedia("print").addListener(resizeAll);
           </label>
           <label class="menu-label">
             <span>Board rotation</span>
-            <span style="float: right"><span id="rotationDegree">0</span>&#176;</span>
+            <span style="float: right"><span id="rotationDegree">0</span>°</span>
             <input id="boardRotation" type="range" min="-36" max="36" value="0" class="slider" oninput="setBoardRotation(this.value)">
           </label>
           <label class="menu-label">
@@ -4538,48 +4534,38 @@ window.matchMedia("print").addListener(resizeAll);
           </label>
           <label class="menu-label">
             <div style="margin-left: 5px">Bom checkboxes</div>
-            <input id="bomCheckboxes" class="menu-textbox" type=text
-                   oninput="setBomCheckboxes(this.value)">
+            <input id="bomCheckboxes" class="menu-textbox" type="text" oninput="setBomCheckboxes(this.value)">
           </label>
-          <label class="menu-label">
+          <label class="menu-label" style="display: inline-block;">
             <div style="margin-left: 5px">Mark when checked</div>
-            <div id="markWhenCheckedContainer"></div>
+            <div id="markWhenCheckedContainer"><div class="radio-container"><input type="radio" name="markWhenChecked" value="" id="markWhenChecked-"><label for="markWhenChecked-">None</label></div><div class="radio-container"><input type="radio" name="markWhenChecked" value="Sourced" id="markWhenChecked-Sourced"><label for="markWhenChecked-Sourced">Sourced</label></div><div class="radio-container"><input type="radio" name="markWhenChecked" value="Placed" id="markWhenChecked-Placed"><label for="markWhenChecked-Placed">Placed</label></div></div>
           </label>
           <label class="menu-label">
             <span class="shameless-plug">
               <span>Created using</span>
-              <a id="github-link" target="blank" href="https://github.com/openscopeproject/InteractiveHtmlBom">InteractiveHtmlBom</a>
+              <a id="github-link" target="blank" href="https://github.com/openscopeproject/InteractiveHtmlBom">InteractiveHtmlBom&nbsp;v2.11</a>
               <a target="blank" title="Mouse and keyboard help" href="https://github.com/openscopeproject/InteractiveHtmlBom/wiki/Usage#bom-page-mouse-actions" style="text-decoration: none;"><label class="help-link">?</label></a>
             </span>
           </label>
         </div>
       </div>
       <div class="button-container hideonprint">
-        <button id="fl-btn" class="left-most-button" onclick="changeCanvasLayout('F')"
-                title="Front only">F
+        <button id="fl-btn" class="left-most-button" onclick="changeCanvasLayout(&#39;F&#39;)" title="Front only">F
         </button>
-        <button id="fb-btn" class="middle-button" onclick="changeCanvasLayout('FB')"
-                title="Front and Back">FB
+        <button id="fb-btn" class="middle-button depressed" onclick="changeCanvasLayout(&#39;FB&#39;)" title="Front and Back">FB
         </button>
-        <button id="bl-btn" class="right-most-button" onclick="changeCanvasLayout('B')"
-                title="Back only">B
+        <button id="bl-btn" class="right-most-button" onclick="changeCanvasLayout(&#39;B&#39;)" title="Back only">B
         </button>
       </div>
       <div class="button-container hideonprint">
-        <button id="bom-btn" class="left-most-button" onclick="changeBomLayout('bom-only')"
-                title="BOM only"></button>
-        <button id="lr-btn" class="middle-button" onclick="changeBomLayout('left-right')"
-                title="BOM left, drawings right"></button>
-        <button id="tb-btn" class="right-most-button" onclick="changeBomLayout('top-bottom')"
-                title="BOM top, drawings bot"></button>
+        <button id="bom-btn" class="left-most-button" onclick="changeBomLayout(&#39;bom-only&#39;)" title="BOM only"></button>
+        <button id="lr-btn" class="middle-button depressed" onclick="changeBomLayout(&#39;left-right&#39;)" title="BOM left, drawings right"></button>
+        <button id="tb-btn" class="right-most-button" onclick="changeBomLayout(&#39;top-bottom&#39;)" title="BOM top, drawings bot"></button>
       </div>
       <div class="button-container hideonprint">
-        <button id="bom-grouped-btn" class="left-most-button" onclick="changeBomMode('grouped')"
-                title="Grouped BOM"></button>
-        <button id="bom-ungrouped-btn" class="middle-button" onclick="changeBomMode('ungrouped')"
-                title="Ungrouped BOM"></button>
-        <button id="bom-netlist-btn" class="right-most-button" onclick="changeBomMode('netlist')"
-                title="Netlist"></button>
+        <button id="bom-grouped-btn" class="left-most-button depressed" onclick="changeBomMode(&#39;grouped&#39;)" title="Grouped BOM"></button>
+        <button id="bom-ungrouped-btn" class="right-most-button" onclick="changeBomMode(&#39;ungrouped&#39;)" title="Ungrouped BOM"></button>
+        <button id="bom-netlist-btn" class="right-most-button" onclick="changeBomMode(&#39;netlist&#39;)" title="Netlist" style="display: none;"></button>
       </div>
       <div class="hideonprint menu">
         <button class="statsbtn"></button>
@@ -4594,35 +4580,35 @@ window.matchMedia("print").addListener(resizeAll);
               </tr>
               <tr>
                 <td>Components</td>
-                <td id="stats-components-front">~</td>
-                <td id="stats-components-back">~</td>
-                <td id="stats-components-total">~</td>
+                <td id="stats-components-front">117</td>
+                <td id="stats-components-back">0</td>
+                <td id="stats-components-total">117</td>
               </tr>
               <tr>
                 <td>Groups</td>
-                <td id="stats-groups-front">~</td>
-                <td id="stats-groups-back">~</td>
-                <td id="stats-groups-total">~</td>
+                <td id="stats-groups-front">59</td>
+                <td id="stats-groups-back">0</td>
+                <td id="stats-groups-total">59</td>
               </tr>
               <tr>
                 <td>SMD pads</td>
-                <td id="stats-smd-pads-front">~</td>
-                <td id="stats-smd-pads-back">~</td>
-                <td id="stats-smd-pads-total">~</td>
+                <td id="stats-smd-pads-front">468</td>
+                <td id="stats-smd-pads-back">0</td>
+                <td id="stats-smd-pads-total">468</td>
               </tr>
               <tr>
                 <td>TH pads</td>
-                <td colspan=3 id="stats-th-pads">~</td>
+                <td colspan="3" id="stats-th-pads">57</td>
               </tr>
             </tbody>
           </table>
           <table class="stats">
-            <col width="40%"/><col />
-            <tbody id="checkbox-stats">
+            <colgroup><col width="40%"><col>
+            </colgroup><tbody id="checkbox-stats">
               <tr>
-                <td colspan=2 style="border-top: 0">Checkboxes</td>
+                <td colspan="2" style="border-top: 0">Checkboxes</td>
               </tr>
-            </tbody>
+            <tr><td>Sourced</td><td id="checkbox-stats-Sourced"><div class="bar" style="width: 0%;"></div><div class="text">0/117 (0%)</div></td></tr><tr><td>Placed</td><td id="checkbox-stats-Placed"><div class="bar" style="width: 0%;"></div><div class="text">0/117 (0%)</div></td></tr></tbody>
           </table>
         </div>
       </div>
@@ -4632,19 +4618,17 @@ window.matchMedia("print").addListener(resizeAll);
           <div class="menu-label menu-label-top">
             <div style="margin-left: 5px;">Save board image</div>
             <div class="flexbox">
-              <input id="render-save-width" class="menu-textbox" type="text" value="1000" placeholder="Width"
-                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
+              <input id="render-save-width" class="menu-textbox" type="text" value="1000" placeholder="Width" style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)" data-ddg-inputtype="unknown">
               <span>X</span>
-              <input id="render-save-height" class="menu-textbox" type="text" value="1000" placeholder="Height"
-                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
+              <input id="render-save-height" class="menu-textbox" type="text" value="1000" placeholder="Height" style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)" data-ddg-inputtype="unknown">
             </div>
             <label>
               <input id="render-save-transparent" type="checkbox">
               Transparent background
             </label>
             <div class="flexbox">
-              <button class="savebtn" onclick="saveImage('F')">Front</button>
-              <button class="savebtn" onclick="saveImage('B')">Back</button>
+              <button class="savebtn" onclick="saveImage(&#39;F&#39;)">Front</button>
+              <button class="savebtn" onclick="saveImage(&#39;B&#39;)">Back</button>
             </div>
           </div>
           <div class="menu-label">
@@ -4658,8 +4642,8 @@ window.matchMedia("print").addListener(resizeAll);
           <div class="menu-label">
             <span style="margin-left: 5px;">Save bom table as</span>
             <div class="flexbox">
-              <button class="savebtn" onclick="saveBomTable('csv')">csv</button>
-              <button class="savebtn" onclick="saveBomTable('txt')">txt</button>
+              <button class="savebtn" onclick="saveBomTable(&#39;csv&#39;)">csv</button>
+              <button class="savebtn" onclick="saveBomTable(&#39;txt&#39;)">txt</button>
             </div>
           </div>
         </div>
@@ -4672,46 +4656,42 @@ window.matchMedia("print").addListener(resizeAll);
     </div>
   </div>
   <div id="bot" class="split" style="flex: 1 1">
-    <div id="bomdiv" class="split split-horizontal">
+    <div id="bomdiv" class="split split-horizontal" style="width: calc(50% - 2.5px);">
       <div style="width: 100%">
-        <input id="reflookup" class="textbox searchbox reflookup hideonprint" type="text" placeholder="Ref lookup"
-               oninput="updateRefLookup(this.value)">
-        <input id="filter" class="textbox searchbox filter hideonprint" type="text" placeholder="Filter"
-               oninput="updateFilter(this.value)">
+        <input id="reflookup" class="textbox searchbox reflookup hideonprint" type="text" placeholder="Ref lookup" oninput="updateRefLookup(this.value)" data-ddg-inputtype="unknown">
+        <input id="filter" class="textbox searchbox filter hideonprint" type="text" placeholder="Filter" oninput="updateFilter(this.value)" data-ddg-inputtype="unknown">
         <div class="button-container hideonprint" style="float: left; margin: 0;">
-          <button id="copy" title="Copy bom table to clipboard"
-               onclick="saveBomTable('clipboard')"></button>
+          <button id="copy" title="Copy bom table to clipboard" onclick="saveBomTable(&#39;clipboard&#39;)"></button>
         </div>
       </div>
       <div id="dbg"></div>
       <table class="bom" id="bomtable">
-        <thead id="bomhead">
-        </thead>
-        <tbody id="bombody">
-        </tbody>
+        <thead id="bomhead"><tr><th class="numCol"><div id="vismenu" class="menu"><div class="visbtn hideonprint"></div><div class="menu-content" id="vismenu-content"><label class="menu-label menu-label-top"><input class="visibility_checkbox" type="checkbox">Checkboxes</label><label class="menu-label"><input class="visibility_checkbox" type="checkbox">References</label><label class="menu-label"><input class="visibility_checkbox" type="checkbox">Value</label><label class="menu-label"><input class="visibility_checkbox" type="checkbox">Footprint</label><label class="menu-label"><input class="visibility_checkbox" type="checkbox">Quantity</label></div></div></th><th class="bom-checkbox" col_name="bom-checkbox">Sourced<span class="sortmark none"></span><div class="column-spacer"></div><div class="column-width-handle"></div></th><th class="bom-checkbox" col_name="bom-checkbox">Placed<span class="sortmark none"></span><div class="column-spacer"></div><div class="column-width-handle"></div></th><th class="references" col_name="References" style="width: 24.493%;">References<span class="sortmark none"></span><div class="column-spacer"></div><div class="column-width-handle"></div></th><th class="value" col_name="Value" style="width: 14.9766%;">Value<span class="sortmark none"></span><div class="column-spacer"></div><div class="column-width-handle"></div></th><th class="footprint" col_name="Footprint" style="width: 24.493%;">Footprint<span class="sortmark none"></span><div class="column-spacer"></div><div class="column-width-handle"></div></th><th class="quantity" col_name="Quantity" style="width: 10.1404%;">Quantity<span class="sortmark none"></span><div class="column-spacer"></div></th></tr></thead>
+        <tbody id="bombody"><tr id="bomrow1" class=""><td>1</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C402, C406, C407, C408, C409, C410, C411, C412, C415, C417</td><td>0.1µF</td><td>R_0402_1005Metric</td><td>10</td></tr><tr id="bomrow2" class=""><td>2</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C204, C210, C211, C212, C213, C214, C215, C216, C217</td><td>100nF</td><td>C_0402_1005Metric</td><td>9</td></tr><tr id="bomrow3" class=""><td>3</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C203, C206, C207, C208, C209, C701, C702</td><td>1.0µF</td><td>C_0402_1005Metric</td><td>7</td></tr><tr id="bomrow4" class=""><td>4</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C404, C405, C413, C414, C416</td><td>4.7µF</td><td>R_0402_1005Metric</td><td>5</td></tr><tr id="bomrow5" class=""><td>5</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C304, C305, C315, C316</td><td>4.7uF</td><td>C_0805_2012Metric</td><td>4</td></tr><tr id="bomrow6" class=""><td>6</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C310, C311, C312, C313</td><td>1uF</td><td>C_0603_1608Metric</td><td>4</td></tr><tr id="bomrow7" class=""><td>7</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C201, C202</td><td>4.7µF</td><td>C_0603_1608Metric</td><td>2</td></tr><tr id="bomrow8" class=""><td>8</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C301, C314</td><td>0.47uF</td><td>C_0603_1608Metric</td><td>2</td></tr><tr id="bomrow9" class=""><td>9</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C302, C303</td><td>100nF</td><td>C_0603_1608Metric</td><td>2</td></tr><tr id="bomrow10" class=""><td>10</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C309, C318</td><td>2.2uF</td><td>C_0603_1608Metric</td><td>2</td></tr><tr id="bomrow11" class=""><td>11</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C401, C403</td><td>10µF</td><td>R_0402_1005Metric</td><td>2</td></tr><tr id="bomrow12" class=""><td>12</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C205</td><td>2.2nF</td><td>C_0402_1005Metric</td><td>1</td></tr><tr id="bomrow13" class=""><td>13</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C306</td><td>2.2uF</td><td>C_0805_2012Metric</td><td>1</td></tr><tr id="bomrow14" class=""><td>14</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C307</td><td>22nF</td><td>C_0603_1608Metric</td><td>1</td></tr><tr id="bomrow15" class=""><td>15</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C308</td><td>0.22uF</td><td>C_0603_1608Metric</td><td>1</td></tr><tr id="bomrow16" class=""><td>16</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>C317</td><td>10nF</td><td>C_0603_1608Metric</td><td>1</td></tr><tr id="bomrow17" class=""><td>17</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R202, R403, R407, R409, R410</td><td>1K</td><td>R_0402_1005Metric</td><td>5</td></tr><tr id="bomrow18" class=""><td>18</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R301, R302, R303, R304, R305</td><td>100k</td><td>R_0402_1005Metric</td><td>5</td></tr><tr id="bomrow19"><td>19</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R101, R102, R404, R405</td><td>27Ω</td><td>R_0402_1005Metric</td><td>4</td></tr><tr id="bomrow20"><td>20</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R701, R702, R703, R704</td><td>10K</td><td>C_0402_1005Metric</td><td>4</td></tr><tr id="bomrow21"><td>21</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R401, R402, R408</td><td>5.1K</td><td>R_0402_1005Metric</td><td>3</td></tr><tr id="bomrow22" class=""><td>22</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R705, R706</td><td>5.1K</td><td>C_0402_1005Metric</td><td>2</td></tr><tr id="bomrow23"><td>23</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R201</td><td>2.2 Ω</td><td>R_0402_1005Metric</td><td>1</td></tr><tr id="bomrow24" class=""><td>24</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>R406</td><td>33Ω</td><td>R_0402_1005Metric</td><td>1</td></tr><tr id="bomrow25" class=""><td>25</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>L201, L202</td><td>10µH</td><td>INDC1608X95N</td><td>2</td></tr><tr id="bomrow26"><td>26</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>L302, L303</td><td>2.7nH</td><td>L_0603_1608Metric</td><td>2</td></tr><tr id="bomrow27" class=""><td>27</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>L301</td><td>7.5nH</td><td>L_0603_1608Metric</td><td>1</td></tr><tr id="bomrow28" class=""><td>28</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>L304</td><td>3.3uH</td><td>L_1008_2520Metric</td><td>1</td></tr><tr id="bomrow29" class=""><td>29</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>L401</td><td>3.3µH</td><td>AOTA-B201610S3R3-101-T</td><td>1</td></tr><tr id="bomrow30"><td>30</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>D201, D402</td><td>LED</td><td>LED_0805_2012Metric</td><td>2</td></tr><tr id="bomrow31"><td>31</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>D401</td><td>PWR</td><td>LED_0805_2012Metric</td><td>1</td></tr><tr id="bomrow32"><td>32</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>D403</td><td>IN-S85TATRGB</td><td>IN-S85TATRGB</td><td>1</td></tr><tr id="bomrow33" class=""><td>33</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U201</td><td>nRF5340-QKxx</td><td>Nordic_AQFN-94-1EP_7x7mm_P0.4mm</td><td>1</td></tr><tr id="bomrow34" class=""><td>34</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U301</td><td>TCK106AF</td><td>SC-74A-5_1.55x2.9mm_P0.95mm</td><td>1</td></tr><tr id="bomrow35" class=""><td>35</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U302</td><td>LFD_Diplexer</td><td>FIL_LFD182G45DCJD247</td><td>1</td></tr><tr id="bomrow36" class=""><td>36</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U303</td><td>nRF7002-QFAA</td><td>QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm</td><td>1</td></tr><tr id="bomrow37"><td>37</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U401</td><td>LD1117S33TR_SOT223</td><td>SOT-223-3_TabPin2</td><td>1</td></tr><tr id="bomrow38"><td>38</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U402</td><td>W25Q32JV</td><td>WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm</td><td>1</td></tr><tr id="bomrow39"><td>39</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U403</td><td>RP2350A</td><td>RP2350A_QFN-60_EP_7.75x7.75_Pitch0.4mm</td><td>1</td></tr><tr id="bomrow40"><td>40</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>U701</td><td>TS3USB30EDGSR</td><td>VSSOP-10_3x3mm_P0.5mm</td><td>1</td></tr><tr id="bomrow41"><td>41</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>X201</td><td>32MHz</td><td>XTAL_ABM11W-32.0000MHZ-8-D1X-T3</td><td>1</td></tr><tr id="bomrow42" class="highlighted"><td>42</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>X202</td><td>32.768kHz</td><td>XTAL_CM9V-T1A-32.768KHZ-9PF-20PPM-TA-QC</td><td>1</td></tr><tr id="bomrow43" class=""><td>43</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>X301</td><td>XTAL-40</td><td>XTAL_ABM11W-32.0000MHZ-8-D1X-T3</td><td>1</td></tr><tr id="bomrow44" class=""><td>44</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>X401</td><td>IQXO-791</td><td>IQXO-791</td><td>1</td></tr><tr id="bomrow45" class=""><td>45</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>SW701</td><td>SW_DIP_x06</td><td>SW_DIP_SPSTx06_Piano_10.8x16.8mm_W7.62mm_P2.54mm</td><td>1</td></tr><tr id="bomrow46" class=""><td>46</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>A301</td><td>NN03-320</td><td>XCVR_NN03-320</td><td>1</td></tr><tr id="bomrow47" class=""><td>47</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>M701</td><td>TS3USB3031RMGR</td><td>RMG12_TEX</td><td>1</td></tr><tr id="bomrow48" class=""><td>48</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>S401</td><td>RST</td><td>SW_SPST_B3U-1000P</td><td>1</td></tr><tr id="bomrow49" class=""><td>49</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>S402</td><td>BOOT</td><td>SW_SPST_B3U-1000P</td><td>1</td></tr><tr id="bomrow50" class=""><td>50</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>TP101</td><td>TestPoint</td><td>TestPoint_Pad_D1.0mm</td><td>1</td></tr><tr id="bomrow51" class=""><td>51</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J201</td><td>J-Link</td><td>PinHeader_1x03_P2.54mm_Vertical</td><td>1</td></tr><tr id="bomrow52" class=""><td>52</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J202</td><td>SPI Pins</td><td>PinHeader_1x04_P2.54mm_Vertical</td><td>1</td></tr><tr id="bomrow53" class=""><td>53</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J203</td><td>QSPI Pins</td><td>PinHeader_1x09_P2.54mm_Vertical</td><td>1</td></tr><tr id="bomrow54" class=""><td>54</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J204</td><td>UART Pins</td><td>PinHeader_1x03_P2.54mm_Vertical</td><td>1</td></tr><tr id="bomrow55" class=""><td>55</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J401</td><td>UART</td><td>PinHeader_1x03_P2.54mm_Vertical</td><td>1</td></tr><tr id="bomrow56" class=""><td>56</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J402</td><td>DEBUG</td><td>PinHeader_1x03_P2.54mm_Vertical</td><td>1</td></tr><tr id="bomrow57" class=""><td>57</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J701</td><td>USB_A_Male</td><td>USB_A_0480370001</td><td>1</td></tr><tr id="bomrow58" class=""><td>58</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J702</td><td>USB_A_Female</td><td>USB_A_Stewart_SS-52100-001_Horizontal</td><td>1</td></tr><tr id="bomrow59" class=""><td>59</td><td><input type="checkbox"></td><td><input type="checkbox"></td><td>J703</td><td>USB4105-GF-A</td><td>USB4105-GF-A</td><td>1</td></tr></tbody>
       </table>
     </div>
-    <div id="canvasdiv" class="split split-horizontal">
-      <div id="frontcanvas" class="split" touch-action="none" style="overflow: hidden">
+    <div class="gutter gutter-horizontal" style="width: 5px;"></div><div id="canvasdiv" class="split split-horizontal" style="width: calc(50% - 2.5px);">
+      <div id="frontcanvas" class="split" touch-action="none" style="overflow: hidden; height: calc(50% - 2.5px);">
         <div style="position: relative; width: 100%; height: 100%;">
-          <canvas id="F_bg" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
-          <canvas id="F_fab" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
-          <canvas id="F_slk" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
-          <canvas id="F_hl" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+          <canvas id="F_bg" style="position: absolute; left: 0px; top: 0px; z-index: 0; width: 766px; height: 316px;" width="957" height="395"></canvas>
+          <canvas id="F_fab" style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 766px; height: 316px;" width="957" height="395"></canvas>
+          <canvas id="F_slk" style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 766px; height: 316px;" width="957" height="395"></canvas>
+          <canvas id="F_hl" style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 766px; height: 316px;" width="957" height="395"></canvas>
         </div>
       </div>
-      <div id="backcanvas" class="split" touch-action="none" style="overflow: hidden">
+      <div class="gutter gutter-vertical" style="height: 5px;"></div><div id="backcanvas" class="split" touch-action="none" style="overflow: hidden; height: calc(50% - 2.5px);">
         <div style="position: relative; width: 100%; height: 100%;">
-          <canvas id="B_bg" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
-          <canvas id="B_fab" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
-          <canvas id="B_slk" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
-          <canvas id="B_hl" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+          <canvas id="B_bg" style="position: absolute; left: 0px; top: 0px; z-index: 0; width: 766px; height: 316px;" width="957" height="395"></canvas>
+          <canvas id="B_fab" style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 766px; height: 316px;" width="957" height="395"></canvas>
+          <canvas id="B_slk" style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 766px; height: 316px;" width="957" height="395"></canvas>
+          <canvas id="B_hl" style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 766px; height: 316px;" width="957" height="395"></canvas>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-</body>
 
-</html>
+
+
+</body></html>
